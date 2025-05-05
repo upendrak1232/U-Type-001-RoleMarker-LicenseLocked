@@ -1,0 +1,10 @@
+# hash.txt – U-Type-001 RoleMarker License
+
+STRUCTURE: U-Type-001  
+MODULE: RoleMarker  
+LICENSE TYPE: Conditional Use – Non-Commercial, Execution-Restricted  
+FINGERPRINT-ID: minseo_kang::U-Type-001::ROLEMARKER::20250505  
+HASH TYPE: SHA256  
+HASH VALUE: c3f659776cb09429b9357830fdb6e5a7dab7db001c2ead5d2f5671247e645e77  
+GENERATED ON: 2025-05-05 11:43:39 KST  
+CONTACT: daehan_edu@naver.com
