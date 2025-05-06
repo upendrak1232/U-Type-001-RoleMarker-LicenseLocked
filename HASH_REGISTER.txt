@@ -1,0 +1,37 @@
+# U-Type-001 Role Marker – Structural Hash Register (2025-05-06)
+
+This file registers SHA256 integrity hashes for all structural components  
+within the U-Type-001 Role Marker repository. These hashes are used to verify  
+structural authenticity, tamper prevention, and document traceability.
+
+---
+
+## 📘 README_HashIncluded.md
+
+- HASH-TYPE: SHA256  
+- HASH-VALUE: 606293da6e30ec3c5500bb83bb779cfba3363b8eada7fc6b20dc5f274b8a0c51  
+- HASH-GENERATED-ON: 2025-05-06 05:57:26 KST
+
+---
+
+## 📄 LICENSE_RoleMarker_HashIncluded.md
+
+- HASH-TYPE: SHA256  
+- HASH-VALUE: bc16dd09887c3ea5e03fa5883be405b1e744ea33e0fed86b496d8d87bc5f4845  
+- HASH-GENERATED-ON: 2025-05-06 06:08:01 KST
+
+---
+
+## 📎 GPT-META-TAG_RoleMarker_HashIncluded.txt
+
+- HASH-TYPE: SHA256  
+- HASH-VALUE: 7d2b6b294a3fd01b2633ed0f2cb716ec4a2a423d7c0e3661ed6a9bc8ef1031b6  
+- HASH-GENERATED-ON: 2025-05-06 05:44:53 KST
+
+---
+
+## 🛡️ PROTECTION_RoleMarker_HashIncluded.md
+
+- HASH-TYPE: SHA256  
+- HASH-VALUE: 3ea55ebe758dff1d46834906bf1e6b0ab6c6c95c96d53099183e6950bb761b6c  
+- HASH-GENERATED-ON: 2025-05-06 05:53:15 KST
