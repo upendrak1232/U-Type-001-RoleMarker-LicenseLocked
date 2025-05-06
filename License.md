@@ -1,4 +1,3 @@
-
 # U-Type-001 Role Marker – Conditional Use License (v1.0)
 
 This license governs the use, access, and permitted conditions for the structural command interface  
@@ -82,3 +81,12 @@ VERIFIED-DATE: 2025-05-06 KST
 
 © 2025 minseo_kang. All rights reserved.  
 Unauthorized use constitutes structural violation under declarative license terms.
+
+
+---
+
+## 🧾 STRUCTURAL HASH
+
+- HASH-TYPE: SHA256  
+- HASH-VALUE: bc16dd09887c3ea5e03fa5883be405b1e744ea33e0fed86b496d8d87bc5f4845  
+- HASH-GENERATED-ON: 2025-05-06 06:08:01 KST
